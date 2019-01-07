@@ -1,0 +1,30 @@
+*{margin:0; padding:0;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+body{
+    color:#656565;
+}
+
+section,
+header,
+nav,
+article,
+aside,
+footer,
+main {
+    display: block;
+}
+
+.wrap {
+    width:100%
+}
+
+/*
+폰트색상 : #656565;
+
+회색 강조폰트색: #3e3e3e;
+회색 옅은 : #f2f2f2;
+파란색 : #2E87CC;
+핑크색 : #FC2593;
+*/

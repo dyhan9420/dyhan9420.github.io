@@ -1,0 +1,55 @@
+@charset "utf-8";
+.mainBanner_bg:before{
+	content: '';
+	display: block;
+	clear: both;
+}
+.mainBanner_bg {
+	width: 100%;
+	height: 320px;
+	background: #2272BB;
+	position: relative;/*오른쪽메뉴블럭*/
+}
+.mainBanner {
+	width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.banner {
+	width: 100%;
+}
+.banner img {
+}
+
+.bannerOnmenu {
+	position: absolute;
+	top:0; right:170px;
+	width:250px;
+	height: 320px;
+	box-sizing: border-box;
+	padding:10px;
+	color: #ededed;
+	background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.4))
+}
+.bannerOnmenu li {
+	float: left;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+}
+.bannerOnmenu li:first-child{
+	background: #FC2593;
+}
+.bannerOnmenu li img {
+	display: block;
+	margin:10px auto;
+	margin-top:20px;
+	opacity: 0.8;
+}
+.bannerOnmenu li:hover{
+	color: #fff;
+}
+.bannerOnmenu li:hover img{
+	opacity: 1;
+}
